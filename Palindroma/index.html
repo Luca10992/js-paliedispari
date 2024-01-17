@@ -41,12 +41,17 @@
     <!-- Inizio Main -->
     <main>
 
-        <div class="container w-50 my-5 text-center">
-            <h1 class="my-5 text-primary fw-bold">Pali&Dispari</h1>
-            <ul class="d-flex justify-content-around fs-3">
-                <li class="list-group-item"><a href="./Palindroma/index.html"><i class="bi bi-folder-fill text-warning"></i>Palindromi</a></li>
-                <li class="list-group-item"><a href="./Pari e Dispari/index.html"><i class="bi bi-folder-fill text-warning"></i>Pari e dispari</a></li>
-            </ul>
+        <div class="container w-50 mx-auto d-flex flex-column align-items-center justify-content-center">
+            <h1 class="display-4 fw-bold text-primary">E' Palindroma?</h1>
+            <form class="my-3 w-100 text-center">
+                <label class="fw-bold fs-4" for="word-container">Inserisci una parola!</label><br>
+                <input class="w-75 my-3 d-inline form-control-lg form-control" type="text" name="Word" id="word-container" required><br>
+                <h2 class="text-danger fw-bold fs-5 my-3 d-none">Attenzione, inserire una parola valida!</h2>
+                <h2 class="text-success fw-bold fs-4 my-3 d-none">La parola è palindroma!</h2>
+                <h2 class="text-danger fw-bold fs-4 my-3 d-none">La parola non è palindroma!</h2>
+                <button class="btn btn-primary fw-bold" type="button">Verifica</button>
+                <input class="btn btn-warning fw-bold" type="reset" value="Cancella">
+            </form>
         </div>
 
     </main>
