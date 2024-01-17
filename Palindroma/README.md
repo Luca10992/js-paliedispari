@@ -7,14 +7,13 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 ## Svolgimento
 
-- creo una funzione che faccia chiedere all'utente una parola;
-- SE l'utente inserisce un numero;
-  - visualizzare messaggio di errore: "Hai inserito un numero. Prego, inserire una parola valida"
-- ALTRIMENTI
+- chiedo all'utente una parola;
   - creo una funzione che verifichi se la parola scritta è palindroma
 - SE lo è:
   - stampo il messaggio "La parola è palindroma"
-- ALTRIMENTI
+- SE non lo è;
   - stampo il messaggio "La parola non è palindroma"
+- ALTRIMENTI SE l'utente inserisce un numero;
+  - visualizzare messaggio di errore.
 
 <!-- *ESERCIZIO 1* -->

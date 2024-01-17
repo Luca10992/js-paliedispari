@@ -46,10 +46,8 @@
             <form class="my-3 w-100 text-center">
                 <label class="fw-bold fs-4" for="word-container">Inserisci una parola!</label><br>
                 <input class="w-75 my-3 d-inline form-control-lg form-control" type="text" name="Word" id="word-container" required><br>
-                <h2 class="text-danger fw-bold fs-5 my-3 d-none">Attenzione, inserire una parola valida!</h2>
-                <h2 class="text-success fw-bold fs-4 my-3 d-none">La parola è palindroma!</h2>
-                <h2 class="text-danger fw-bold fs-4 my-3 d-none">La parola non è palindroma!</h2>
-                <button class="btn btn-primary fw-bold" type="button">Verifica</button>
+                <h2 id="verify" class="fw-bold fs-5 my-3"></h2>
+                <button id="button" class="btn btn-primary fw-bold" type="button">Verifica</button>
                 <input class="btn btn-warning fw-bold" type="reset" value="Cancella">
             </form>
         </div>
