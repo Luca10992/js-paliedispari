@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luca Lillo">
-    <link rel="icon" href="./icon-bear.png">
+    <link rel="icon" href="../icon-bear.png">
     
     <!-- Font Awesome -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -40,6 +40,35 @@
     <!-- Fine Header -->
     <!-- Inizio Main -->
     <main>
+
+        <h1 class="display-4 fw-bold text-primary text-center my-5">Pari & Dispari</h1>
+        <div class="container1 w-75 mx-auto d-flex gap-4 justify-content-center">
+            <div class="text-center">
+                <label for="pari-dispari" class="fw-bold fs-4 mb-3">Scegli pari o dispari</label><br>
+                <select class="mb-5 form-select-lg" id="pari-dispari">
+                    <option selected>Pari o dispari</option>
+                    <option value="pari">Pari</option>
+                    <option value="dispari">Dispari</option>
+                </select>
+                <div class="text-center">
+                    <h2 class="fw-bold fs-4">Numero CPU:</h2>
+                    <p id="random-number" class="fw-bold fs-4 mb-5"></p>
+                </div>
+            </div>
+            <div class="text-center">
+                <label for="number" class="fw-bold fs-4 mb-3">Scrivi un numero da 1 a 5</label><br>
+                <input type="text" id="number" class="w-50 mb-5 form-control-lg" placeholder="Da 1 a 5">
+                <div class="text-center">
+                    <h2 class="fw-bold fs-4">Somma numeri:</h2>
+                    <p id="sum" class="fw-bold fs-4 mb-5"></p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="result text-center fw-bold fs-4 mb-1"></div>
+            <button type="button" class="btn btn-primary fs-3 fw-bold">Scopri</button>
+        </div>
+
 
     </main>
     <!-- Fine Main -->
